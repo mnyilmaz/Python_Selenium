@@ -25,3 +25,24 @@ bool: Represents the truth values True or False.
 None Type:
 ------------------------------------
 None: Represents the absence of a value or a null value.
+
+##############################################################################################################
+
+Identify which data types have been used in this website of this course.
+
+# String on buttons:
+string = "Bitir ve devam et"
+# Completion percentage
+int = 9 
+
+##############################################################################################################
+
+Give examples of the parts of the site where you think conditional blocks are used and code these examples in Python.
+
+comment = input("Please enter your comment")
+button.click()
+
+if len(comment) == 0:
+  print("Please add text to the comment")
+else:
+  share()
